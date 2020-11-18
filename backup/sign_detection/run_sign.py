@@ -17,7 +17,7 @@ parser = argparse.ArgumentParser(
 #name_vid = source_vid[0]
 parser.add_argument('--net_type', default="RFB", type=str,
                     help='The network architecture ,optional: RFB (higher precision) or slim (faster)')
-parser.add_argument('--input_size', default=320, type=int,
+parser.add_argument('--input_size', default=160, type=int,
                     help='define network input size,default optional value 128/160/320/480/640/1280')
 parser.add_argument('--threshold', default=0.99, type=float,
                     help='score threshold')
